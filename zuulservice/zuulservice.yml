@@ -13,7 +13,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://172.16.95.233:8761/eureka
+      defaultZone: http://172.16.95.237:8761/eureka
       
 zuul:
   routes:
