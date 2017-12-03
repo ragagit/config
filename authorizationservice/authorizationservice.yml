@@ -18,7 +18,7 @@ spring:
 security:
   oauth2:
     resource:
-      user-info-uri: http://172.16.95.237:8901/user
+      user-info-uri: http://172.16.95.242:8901/user
     
 server:
   port: 8901
@@ -30,7 +30,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://172.16.95.237:8761/eureka
+      defaultZone: http://172.16.95.242:8761/eureka
       
 signing:
   key: 345345fsdgsf5345
